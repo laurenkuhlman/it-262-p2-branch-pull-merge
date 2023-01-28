@@ -11,7 +11,8 @@
 
   <body>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
-      <h2>Temperature Converter</h2>
+/***************************** BROKEN *****************************/
+      <h2>Temperature Converter<h2>
 
       <fieldset>
         <label>Temperature to Convert</label>
@@ -81,7 +82,8 @@
           </option>
           <option value="f" <?php
             if (
-              isset($_POST['scale_to']) && $_POST['scale_to'] == 'f')
+/***************************** BROKEN *****************************/
+              isset($_POST['scale_to']) && $_POST['scaleto'] == 'f')
               echo 'selected = "selected"'; 
           ?>>
             Fahrenheit
@@ -124,7 +126,8 @@
         } elseif ($scale_from == "c" && $scale_to == "k") {
           $result = $temp_from + 273.15;
         } elseif ($scale_from == "k" && $scale_to == "c") {
-          $result = $temp_from - 273.15;
+/***************************** BROKEN *****************************/
+          $result = $tempfrom - 273.15;
         } elseif ($scale_from == "f" && $scale_to == "k") {
           $result = ($temp_from + 459.67) * (5 / 9);
         } elseif ($scale_from == "k" && $scale_to == "f") {
@@ -140,7 +143,8 @@
           !empty ( $scale_to )
         ) {
           echo '
-            <div class="box">
+/***************************** BROKEN *****************************/
+            <div clas="box">
             <p>' . $temp_from . '&#176' . strtoupper($scale_from) . ' = ' . round($result, 2) . '&#176' . strtoupper($scale_to) . '</p>
             </div>
           ';
