@@ -5,3 +5,8 @@ Here is a link to Lauren's ( former ) team's GitHub repo: https://github.com/lau
 Here is a link to Lauren's ( former ) team's working website: http://phonealphabet.com/it262/it262-temperature-converter-main/index.php
 
 You can actually see some branching and pull requests on my former project here: https://github.com/laurenkuhlman/it262-temperature-converter/network
+
+This exact text appears before every broken line:
+/***************************** BROKEN *****************************/
+
+Most broken lines just have one character out of place. They are in the CSS and PHP. 
