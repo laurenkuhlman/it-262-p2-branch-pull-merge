@@ -11,8 +11,7 @@
 
   <body>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
-/***************************** BROKEN *****************************/
-      <h2>Temperature Converter<h2>
+      <h2>Temperature Converter</h2>
 
       <fieldset>
         <label>Temperature to Convert</label>
