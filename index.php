@@ -140,8 +140,7 @@
           !empty ( $scale_to )
         ) {
           echo '
-/***************************** BROKEN *****************************/
-            <div clas="box">
+            <div class="box">
             <p>' . $temp_from . '&#176' . strtoupper($scale_from) . ' = ' . round($result, 2) . '&#176' . strtoupper($scale_to) . '</p>
             </div>
           ';
