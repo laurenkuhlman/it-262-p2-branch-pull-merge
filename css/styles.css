@@ -93,6 +93,5 @@ h2 {
 }
 
 p {
-/***************************** BROKEN *****************************/
-    textalign: center;
+    text-align: center;
 }
