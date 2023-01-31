@@ -124,8 +124,7 @@
         } elseif ($scale_from == "c" && $scale_to == "k") {
           $result = $temp_from + 273.15;
         } elseif ($scale_from == "k" && $scale_to == "c") {
-/***************************** BROKEN *****************************/
-          $result = $tempfrom - 273.15;
+          $result = $temp_from - 273.15;
         } elseif ($scale_from == "f" && $scale_to == "k") {
           $result = ($temp_from + 459.67) * (5 / 9);
         } elseif ($scale_from == "k" && $scale_to == "f") {
