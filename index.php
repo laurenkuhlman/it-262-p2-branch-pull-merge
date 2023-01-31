@@ -81,8 +81,7 @@
           </option>
           <option value="f" <?php
             if (
-/***************************** BROKEN *****************************/
-              isset($_POST['scale_to']) && $_POST['scaleto'] == 'f')
+              isset($_POST['scale_to']) && $_POST['scale_to'] == 'f')
               echo 'selected = "selected"'; 
           ?>>
             Fahrenheit
